@@ -1,8 +1,12 @@
 # Cloudflare DDNS Updater - For PowerShell users
 Adds/Updates Cloudflare DNS entries for the purpose of DDNS using PowerShell. PowerShell can also be installed onto your Nix flavour of choice and scheduled with crontab.
 
-## Installation
+## Pre-requisites
+1. A domain name
+2. Cloudflare (free tier)
+3. A place to execute the code from within your network (anything that can run PowerShell)
 
+## Installation
 ```bash
 git clone https://github.com/zenstrukt/cloudflare-ddns-updater.git
 ```
